@@ -17,29 +17,29 @@ export function ServicesSection() {
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
             Услуги
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Что мы делаем</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Мангалы на заказ",
+              description: "Изготовим мангал по вашим размерам и пожеланиям — любая форма, толщина, комплектация",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Мангальные комплексы",
+              description: "Проектируем и строим комплексы под ключ: навес, стол, мойка, место для дров",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Доставка и монтаж",
+              description: "Доставляем по всей России, устанавливаем и настраиваем на месте",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Серийные поставки",
+              description: "Работаем с кафе, ресторанами и базами отдыха — скидки от 5 единиц",
               direction: "bottom",
             },
           ].map((service, i) => (
